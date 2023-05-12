@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a:hover{
+color:#f64348;
+text-decoration:dotted;
+}
+a:active{
+    color:#101010;
+}
+button:active{
+    background-color: #101010;
+}
+.conteudo {
+  margin-bottom: 48px;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.textosection1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.title1 {
+  font-family: "Source Sans 3", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 64px;
+}
+.subtitle1 {
+  font-family: "Source Sans 3", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+}
+.button1 {
+  background-color: #f64348;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "Source Sans 3", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+}
+.button1:hover{
+background-color: #8b3638;
+cursor:pointer;
+scale: 1.1;
+}
+.image1 {
+  height: 500px;
+}
+.section2 {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.subtitle2 {
+  font-family: "Source Sans 3", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 30px;
+  margin-left: 55px;
+}
+.softwares {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.divhtml, .divcss, .divfigma {
+  background-color: #f64348;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(to bottom, #f64348, #421d1e, #101010);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+}
+.divhtml:hover:not(:hover), .divcss:hover:not(:hover), .divfigma:hover:not(:hover) {
+  opacity: 0.3;
+}
+.divhtml:hover, .divcss:hover, .divfigma:hover{
+  scale: 1.1;
+}
+.texthtml, .textcss,.textfigma {
+  font-family: "Source Sans 3", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+.section3{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.textsection3{
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 55px;
+    background-image:url(/imgs/ifmg.png) ;
+    height: 300px;
+}
+.subtitle3{
+    font-family: "Source Sans 3", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+}
+.button2{
+    background-color: #f64348;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: "Source Sans 3", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+}
+.button2:hover{
+background-color: #8b3638;
+cursor:pointer;
+scale: 1.1;
+}
+.button1:hover:not(:hover), .button2:hover:not(:hover){
+  opacity: 0.3;
+}
+.image2{
+    height: 500px;  
+}
+
+
+
+
+
