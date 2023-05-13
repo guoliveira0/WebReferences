@@ -30,17 +30,6 @@ body {
   font-weight: 400;
   font-size: 18px;
 }
-.rodape {
-  margin-top: 48px;
-  text-align: center;
-}
-.textrodape {
-  margin: auto;
-  font-family: "Source Sans 3", sans-serif;
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 20px;
-}
 .cabecalho:hover {
   background-color: #110f0f;
 }
@@ -188,6 +177,14 @@ scale: 1.1;
 }
 .image2{
     height: 500px;  
+}
+.rodape {
+  text-align: center;
+  color: white;
+}
+.p_footer {
+  font-size: 0.8em;
+  color: #a7a7a7;
 }
 
 
