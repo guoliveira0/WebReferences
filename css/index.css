@@ -7,13 +7,6 @@
   text-decoration: none;
 }
 
-a:hover{
-color:#f64348;
-text-decoration:dotted;
-}
-a:active{
-    color:#101010;
-}
 button:active{
     background-color: #101010;
 }
