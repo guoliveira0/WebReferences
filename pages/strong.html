@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="/css/tags.css">
     <title>Layout</title>
 </head>
 
@@ -13,16 +13,15 @@
     <header class="cabecalho">
         <img class="imagem-cabecalho" src="imgs/Logo.png.png" alt="Logo do Site" />
         <nav class="cabecalhomenu">
-            <a class="cabecalho-menu-item" href="#">Home</a>
-            <a class="cabecalho-menu-item" href="#">Referências</a>
-            <a class="cabecalho-menu-item" href="#">Sobre</a>
+            <a class="cabecalho-menu-item" href="index.html">Home</a>
+            <a class="cabecalho-menu-item" href="references.html">Referências</a>
+            <a class="cabecalho-menu-item" href="sobre.html">Sobre</a>
         </nav>
-    </header>
-    
+    </header>  
     <main>
         <br><br>
 
-        <h1 class="titulo">Tag &lt;h1&gt;-&lt;h6&gt;</h1>
+        <h1 class="titulo">Tag &lt;strong&gt;</h1>
 
         <br>
         <br>
@@ -34,7 +33,7 @@
                         <br>
                         <h2>Exemplos</h2>
                         <br>
-                        <p>Existem seis tipos de titulos:</p>
+                        <p>Define algum texto importante em um documento: </p>
                     </th>
                 </tr>
             </thead>
@@ -43,52 +42,23 @@
                     <td class="h1s">
                         <br>
                         <hr>
-                        <p>&lt;h1&gt; é o titulo nível 1 &lt;/h1&gt;</p>
+                        <p>&lt;strong&gt;Este texto é importante!&lt;/strong&gt;</p>
                         <hr>
-                        <br>
-                        <hr>
-                        <p>&lt;h2&gt; é o titulo nível 2 &lt;/h2&gt;</p>
-                        <hr>
-                        <br>
-                        <hr>
-                        <p>&lt;h3&gt; é o titulo nível 3 &lt;/h3&gt;</p>
-                        <hr>
-                        <br>
-                        <hr>
-                        <p>&lt;h4&gt; é o titulo nível 4 &lt;/h4&gt;</p>
-                        <hr>
-                        <br>
-                        <hr>
-                        <p>&lt;h5&gt; é o titulo nível 5 &lt;/h5&gt;</p>
-                        <hr>
-                        <br>    
-                        <hr>
-                        <p>&lt;h6&gt; é o titulo nível 6 &lt;/h6&gt;</p>
-                        <hr> 
                     </td>
                 </tr>
             </tbody>
-            <tfoot>
-                <tr>
-                    <td>
-                        <button class="exemplos"><a class="button_link" href="exemplo.html">Ver Resultado</a></button>
-                    </td>
-                </tr>
-            </tfoot>
         </table>
 
         <br><br>
 
         <div class="definicao">
-            <h2>Definição de Uso</h2>
+            <h2>Definição e Uso</h2>
             
             <br>
 
             <p>
-               As tags &lt;h1&gt; to &lt;h6&gt; são usadas para definir cabeçalhos HTML. &lt;h1&gt; define o cabeçalho mais importante,<br> 
-               já o &lt;h6&gt; define o título menos importante. Nota: Use apenas um &lt;h1&gt; por página - isso deve representar o <br>
-               cabeçalho/assunto principal de toda a página. Além disso, não pule os níveis de títulos - comece com &lt;h1&gt;, <br> 
-               depois use &lt;h2&gt;, e assim por diante.   
+               A tag &lt;strong&gt; é usada para definir um parte do texto que é importante para o documento.<br> O conteúdo dentro da tag é normalmente exibido em negrito.<br><br> 
+               Dica: Use a tag &lt;b&gt; para colocar textos em negrito, mas sem o valor semântico de importância!  
             </p>
         </div>
 
@@ -101,7 +71,7 @@
                 <thead>
                     <tr>
                         <th class="nth"><p>Navegadores</p></th>
-                        <th class="nth"><img src="imgs/chrome.png"></th>
+                        <th class="nth"><img src="/imgs/chrome.png"></th>
                         <th class="nth"><img src="imgs/safari.png"></th>
                         <th class="nth"><img src="imgs/firefox.png"></th>
                         <th class="nth"><img src="imgs/edge.png"></th>
@@ -126,7 +96,7 @@
         <div class="globais">
             <h2>Atributos Globais</h2>          
             <br>
-            <p>As tags &lt;h1&gt; to &lt;h6&gt; também suportam os <a class="link" href="#">Atributos Globais em HTML</a>.</p>
+            <p>A tag &lt;strong&gt;também suporta os <a class="link" href="#">Atributos Globais em HTML</a>.</p>
         </div>
 
         <br><br><br>
@@ -142,14 +112,12 @@
 
         <br><br><br><br>
     </main>
-    <footer>
-        <hr>
-        <br><br>
-        <p> <a style="text-decoration-line: none;" class="link" href="index.html">Home </a> <a class="link" style="text-decoration-line: none;" href="#"> Sobre nós</a> &nbsp;</p>
-        <br>
-        <p>Copyright &copy; 2023</p>
-        <br><br>
+    <hr><br>
+ <footer>
+        <p class="p_footer">Home	&nbsp;Referências	&nbsp;Sobre</p>
+        Copyright&copy;2023
     </footer>
+    <br>
 </body>
 
 </html>
