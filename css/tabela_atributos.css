@@ -1,0 +1,21 @@
+.atributos_opcionais{
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: -8px;
+}
+
+td {
+    border: 1px solid #ffffff;
+    border-left-width: 0;
+    min-width: 120px;
+    height: 18px;
+  }
+  
+  td:first-child {
+    border-left-width: 1px;
+  }
+
+  .tr_atributos_opcionais:nth-child(1), .tr_atributos_opcionais:nth-child(3), .tr_atributos_opcionais:nth-child(5), .tr_atributos_opcionais:nth-child(7), .tr_atributos_opcionais:nth-child(9) {
+    background-color:#fcf3f3c0;
+  }
+ 
