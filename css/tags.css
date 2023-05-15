@@ -7,6 +7,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+html,body{
+  overflow-x: hidden;
+}
 
 html {
   font-family: "Source Code Pro", monospace;
@@ -132,7 +135,7 @@ table {
   font-family: "Source Code Pro", monospace;
   border-radius: 0.938rem;
   background-color: #000;
-  width: 60%;
+  width: 80%;
   margin: auto;
   text-align: left;
   border-style: solid;
