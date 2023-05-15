@@ -1,6 +1,6 @@
 .atributos_opcionais{
     border-collapse: separate;
-    border-spacing: 0 8px;
+    border-spacing: 0 12px;
     margin-top: -8px;
 }
 
@@ -15,7 +15,7 @@ td {
     border-left-width: 1px;
   }
 
-  .tr_atributos_opcionais:nth-child(1), .tr_atributos_opcionais:nth-child(3), .tr_atributos_opcionais:nth-child(5), .tr_atributos_opcionais:nth-child(7), .tr_atributos_opcionais:nth-child(9) {
+  .tr_atributos_opcionais:nth-child(2n +1) {
     background-color:#fcf3f3c0;
   }
  
