@@ -1,0 +1,192 @@
+:root {
+
+    --default-pad: 2.5rem;
+    --medium-pad: calc(var(--default-pad) / 2);
+}
+
+html{
+    Scroll-behavior: smooth;
+    }
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #1E1E1E;
+
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    color: var(--dark);
+    display: block;
+}
+
+.link_tags_table:hover{
+color:#3c7df5;
+
+}
+
+.link_tags_header{
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+/* Configurações do details */
+
+summary{
+    list-style-type: '>';
+    
+}
+
+summary:hover{
+
+    cursor:default;
+}
+
+details[open] summary{
+    list-style-type: '<';
+    
+}
+
+
+
+
+/* Fim das configurações do details */
+
+header:hover {
+    background-color: #292929;
+}
+
+a:hover {
+    color: #f64348;
+    text-decoration: dotted;
+}
+
+/* Novo header */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.imagem-cabecalho {
+    height: 100px;
+}
+
+.cabecalhomenu {
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho-menu-item {
+    font-family: "Source Code Pro", monospace;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.cabecalho-menu-item:hover {
+
+    color: red;
+}
+
+
+
+main {
+    padding: var(--default-pad);
+    background-color: #1E1E1E;
+
+}
+
+.main-div-2 {
+    color: white;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.link_div_2 {
+    color: white;
+}
+
+
+
+/* Tabela de Tags */
+
+table {
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: left;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+
+
+}
+
+.th_tag{
+
+    text-align: center;
+
+}
+
+.td_tag{
+    text-align: center;
+}
+
+th {
+    color: rgb(221, 221, 221);
+    background-color: rgb(170, 0, 0);
+
+
+}
+
+
+
+tr:nth-child(even) {
+    background-image: linear-gradient(to bottom, rgb(255, 107, 107), rgb(248, 77, 77), rgb(255, 60, 60), rgb(255, 107, 107));
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* Tabela de navegadores */
+
+.table_navs {
+    background-color: rgb(16, 16, 100);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+
+
+}
+
+.table_navs_th {
+    background-image: linear-gradient(to bottom, rgb(118, 118, 243), rgb(175, 175, 245), white);
+    text-align: center;
+    width: 60px;
+
+}
+
+/* Fim das configurações da tabela */
+
+footer {
+
+    text-align: center;
+    color: white;
+}
+
+.p_footer {
+    font-size: 0.8em;
+    color: #a7a7a7;
+}
