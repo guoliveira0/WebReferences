@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/tags.css">
     <link rel="stylesheet" href="/css/tabela_atributos.css">
-    <title>track</title>
+    <title>link</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
     <main>
         <br><br>
 
-        <h1 class="titulo">Tag &lt;track&gt;</h1>
+        <h1 class="titulo">Tag &lt;link&gt;</h1>
 
         <br>
         <br>
@@ -36,16 +36,11 @@
                         <h2>Exemplos</h2>
                         <br>
                         <hr>
-                        <p>Um vídeo com tracks de legendas para dois idiomas:<br><br>
+                        <p>Link para uma folha de estilo externa:<br><br>
 
-                            &lt;video width="320" height="240" controls&gt;<br>
-                            &nbsp;&lt;source src="forrest_gump.mp4" type="video/mp4"&gt;<br>
-                            &nbsp;&lt;source src="forrest_gump.ogg" type="video/ogg"&gt;<br>
-                            &nbsp;&lt;track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en"
-                            label="English"&gt;<br>
-                            &nbsp;&lt;track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no"
-                            label="Norwegian"&gt;<br>
-                            &lt;/video&gt;
+                            &lt;head&gt;<br>
+                            &nbsp;&lt;link rel="stylesheet" href="styles.css"&gt;<br>
+                            &lt;/head&gt;
 
 
 
@@ -59,7 +54,7 @@
             <tbody>
 
             </tbody>
-           
+
         </table>
 
         <br><br>
@@ -71,12 +66,12 @@
 
             <p>
 
-                A tag &lt;track&gt; especifica trilhas de texto para elementos &lt;audio&gt; ou &lt;video&gt;.<br><br>
+                A tag &lt;link&gt; define o relacionamento entre o documento atual e um recurso externo.<br><br>
 
-                Este elemento é usado para especificar legendas, arquivos de legenda ou outros arquivos <br>contendo
-                texto, que devem estar visíveis quando a mídia estiver sendo reproduzida.<br><br>
+                A tag &lt;link&gt; é usada com mais frequência para vincular a folhas de estilo externas ou<br> para
+                adicionar um favicon ao seu site.
 
-                As trilhas são formatadas no formato WebVTT (arquivos .vtt).
+                <br><br>O elemento &lt;link&gt; é um elemento vazio, contém apenas atributos.
 
 
 
@@ -105,11 +100,11 @@
                 <tbody>
                     <tr style="text-align: center; background-color: #9f9f9f;">
                         <td>Compatibilidade</td>
-                        <td>23.0</td>
-                        <td>10.0</td>
-                        <td>31.0</td>
-                        <td>6.0</td>
-                        <td>12.1</td>
+                        <td>sim</td>
+                        <td>sim</td>
+                        <td>sim</td>
+                        <td>sim</td>
+                        <td>sim</td>
                     </tr>
                 </tbody>
             </table>
@@ -127,9 +122,10 @@
 
             <tbody>
                 <tr class="tr_atributos_opcionais">
-                    <td>default</td>
-                    <td>nenhum</td>
-                    <td>Especifica que a faixa deve ser habilitada se as preferências do usuário não indicarem que outra faixa seria mais apropriada</td>
+                    <td>crossorigin</td>
+                    <td>anonymous<br>
+                        use-credentials</td>
+                    <td>Especifica como o elemento lida com solicitações de cross-origin</td>
                 </tr>
 
                 <tr class="tr_atributos_opcionais">
@@ -139,13 +135,9 @@
                 </tr>
 
                 <tr class="tr_atributos_opcionais">
-                    <td>kind</td>
-                    <td>captions
-                        chapters
-                        descriptions
-                        metadata
-                        subtitles</td>
-                    <td>Especifica o tipo de faixa de texto</td>
+                    <td>href</td>
+                    <td>URL</td>
+                    <td>Especifica a localização do documento vinculado</td>
                 </tr>
 
                 <tr class="tr_atributos_opcionais">
@@ -167,9 +159,9 @@
                 </tr>
 
                 <tr class="tr_atributos_opcionais">
-                    <td>src</td>
-                    <td>URL</td>
-                    <td>Obrigatório. Especifica a URL do arquivo de trilha</td>
+                    <td>hrefflang</td>
+                    <td>language_code</td>
+                    <td>Especifica o idioma do texto no documento vinculado</td>
                 </tr>
 
                 <tr class="tr_atributos_opcionais">
@@ -183,7 +175,68 @@
                     <td>language_code</td>
                     <td>Especifica o idioma dos dados do texto da faixa (obrigatório se kind="subtitles")</td>
                 </tr>
-                
+
+                <tr class="tr_atributos_opcionais">
+                    <td>media</td>
+                    <td>media_query</td>
+                    <td>Especifica em qual dispositivo o documento vinculado será exibido</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>media</td>
+                    <td>media_query</td>
+                    <td>Especifica em qual dispositivo o documento vinculado será exibido</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>referrerpolicy</td>
+                    <td>no-referrer
+                        no-referrer-when-downgrade
+                        origin
+                        origin-when-cross-origin
+                        unsafe-url</td>
+                    <td>Especifica qual referenciador usar ao buscar o recurso</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>rel</td>
+                    <td>alternate<br>
+                        author<br>
+                        dns-prefetch<br>
+                        help<br>
+                        icon<br>
+                        license<br>
+                        next<br>
+                        pingback<br>
+                        preconnect<br>
+                        prefetch<br>
+                        preload<br>
+                        prerender<br>
+                        prev<br>
+                        search<br>
+                        stylesheet</td>
+                    <td>Obrigatório. Especifica a relação entre o documento atual e o documento vinculado</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>sizes</td>
+                    <td>HeightxWidth
+                        any</td>
+                    <td>Especifica o tamanho do recurso vinculado. Somente para rel="icon"</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>title</td>
+                    <td></td>
+                    <td>Define uma folha de estilo ou alternativa</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>type</td>
+                    <td>media_type</td>
+                    <td>Especifica o tipo de mídia do documento vinculado</td>
+                </tr>
+
 
             </tbody>
         </table>
@@ -193,15 +246,16 @@
         <div class="globais">
             <h2>Atributos Globais</h2>
             <br>
-            <p>A tag &lt;track&gt; também suportam os <a class="link" href="atributosglobais.html">Atributos Globais em HTML</a>.</p>
+            <p>A tag &lt;track&gt; também suportam os <a class="link" href="atributosglobais.html">Atributos Globais em
+                    HTML</a>.</p>
         </div>
 
         <br><br><br>
 
-        
 
-        <button class="anterior"><a class="button_link" href="summary.html">Anterior</a></button>
-        <button class="proxima"><a class="button_link" href="u.html">Próximo</a></button>
+
+        <button class="anterior"><a class="button_link" href="legend.html">Anterior</a></button>
+        <button class="proxima"><a class="button_link" href="mark.html">Próximo</a></button>
 
         <br><br><br>
         <hr><br>
