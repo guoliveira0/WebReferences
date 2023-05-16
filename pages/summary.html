@@ -6,13 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/tags.css">
-    <link rel="stylesheet" href="../css/tabela_atributos.css">
- 
-    
-
     <link rel="icon" href="../imgs/Logo 1(png).png">
-
-    <title>Ins</title>
+    <title>summary</title>
 </head>
 
 <body>
@@ -28,7 +23,7 @@
     <main>
         <br><br>
 
-        <h1 class="titulo">Tag &lt;ins&gt;</h1>
+        <h1 class="titulo">Tag &lt;summary&gt;</h1>
 
         <br>
         <br>
@@ -39,18 +34,28 @@
                     <th class="ex-th">
                         <br>
                         <h2>Exemplos</h2>
-                        <br><hr>
-                        <p>Um texto com uma parte deletada e uma nova parte inserida:<br><br>
-                            &lt;p&gt;Minha cor favorita é &lt;del&gt;azul&lt;/del&gt;&lt;ins&gt;vermelho&lt;/ins&gt;!</p>
-                           
-                        </p><hr>
+                        <br>
+                        <hr>
+                        <p>Uma tabela com caption:<br><br>
+
+                            &nbsp;&lt;details&gt;<br>
+                            &nbsp;&nbsp;&lt;summary&gt;Epcot Center&lt;/summary&gt;<br>
+                            &nbsp;&nbsp;&lt;p&gt;Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+                            international pavilions,<br>&nbsp; award-winning fireworks and seasonal special events.&lt;/p&gt;<br>
+                            &nbsp;&lt;details&gt;
+
+
+
+
+                        </p>
+                        <hr>
                     </th>
                 </tr>
             </thead>
             <tbody>
 
             </tbody>
-           
+
         </table>
 
         <br><br>
@@ -59,19 +64,19 @@
             <h2>Definição de Uso</h2>
 
             <br>
-            <p>
 
-                A tag &lt;ins&gt; define um texto que foi inserido em um documento. Os navegadores geralmente sublinham o texto inserido.<br><br>
-                Dica: Observe também a tag &lt;del&gt; para marcar o texto excluído.
+            <p>
+                A tag &lt;summary&gt; define um cabeçalho visível para o elemento <a class="link" href="details.html">&lt;details&gt;</a>.<br><br>O título pode ser clicado para visualizar/ocultar os detalhes.
+
+                    <br><br>Nota: O elemento &lt;summary&gt; deve ser o primeiro elemento filho do elemento <a class="link" href="details.html">&lt;details&gt;</a>.
+                    
             </p>
         </div>
 
-        <br>
+        <br><br><br>
 
         <h2 style="font-family: Source Code Pro, monospace; ; color: #ffffff; left: 310px; position: relative;">Suporte
             para Navegadores</h2>
-        <br>
-        
         <br>
         <div class="navegadores">
             <table class="table_nav">
@@ -90,62 +95,30 @@
                 <tbody>
                     <tr style="text-align: center; background-color: #9f9f9f;">
                         <td>Compatibilidade</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
+                        <td>12.0</td>
+                        <td>79.0</td>
+                        <td>49.0</td>
+                        <td>6.0</td>
+                        <td>15.0</td>
                     </tr>
                 </tbody>
             </table>
-        </div><br><br>
-        <table class="atributos_opcionais">
+        </div>
 
-            <thead>
-                <tr>
-                    <th>Atributo</th>
-                    <th>Valor</th>
-                    <th>Descrição</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr class="tr_atributos_opcionais">
-                    <td>cite</td>
-                    <td>URL</td>
-                    <td>Especifica uma URL para um documento que explica o motivo pelo qual o texto foi inserido/alterado</td>
-                </tr>
-
-                <tr class="tr_atributos_opcionais">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr class="tr_atributos_opcionais">
-                    <td>datetime</td>
-                    <td>YYYY-MM-<br>
-                        DDThh:mm:ssTZD
-                        </td>
-                    <td>Especifica a data e hora em que o texto foi inserido/alterado</td>
-                </tr>      
-            </tbody>
-        </table>
         <br><br><br>
-
-
-
-        
 
         <div class="globais">
             <h2>Atributos Globais</h2>
             <br>
-            <p>A tag &lt;ins&gt; também suportam os <a class="link" href="atributosglobais.html">Atributos Globais em HTML</a>.</p>
+            <p>A tag &lt;summary&gt; também suportam os <a class="link" href="atributosglobais.html">Atributos Globais em HTML</a>.</p>
         </div>
 
         <br><br><br>
-        <button class="anterior"><a class="button_link" href="input.html">Anterior</a></button>
-        <button class="proxima"><a class="button_link" href="label.html">Próximo</a></button>
+
+
+
+        <button class="anterior"><a class="button_link" href="sub.html">Anterior</a></button>
+        <button class="proxima"><a class="button_link" href="track.html">Próximo</a></button>
 
         <br><br><br>
         <hr><br>

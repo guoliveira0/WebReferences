@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/tags.css">
-    <link rel="icon" href="../imgs/Logo 1(png).png">
-    <title>var</title>
+    <link rel="stylesheet" href="../css/tabela_atributos.css">
+    <title>Figure</title>
+    <link rel="icon" href="/imgs/Logo 1(png).png">
 </head>
 
 <body>
@@ -18,12 +19,11 @@
             <a class="cabecalho-menu-item" href="referencias.html">Referências</a>
             <a class="cabecalho-menu-item" href="sobre.html">Sobre</a>
         </nav>
-    </header>
-    
+    </header>  
     <main>
         <br><br>
 
-        <h1 class="titulo">Tag &lt;var&gt;</h1>
+        <h1 class="titulo">Tag &lt;figure&gt;</h1>
 
         <br>
         <br>
@@ -35,46 +35,44 @@
                         <br>
                         <h2>Exemplos</h2>
                         <br>
-                        <hr>
-                        <p>Defina algum texto como variáveis em um documento:<br><br>
-
-                            &lt;p&gt;The area of a triangle is: 1/2 x &lt;var&gt;b&lt;/var&gt; x &lt;var&gt;h&lt;/var&gt;, where &lt;var&gt;b&lt;/var&gt; is the base, and &lt;var&gt;h&lt;/var&gt; is the vertical height.&lt;/p&gt;
-
-
-
-
-
-                        </p>
-                        <hr>
+                        <p>Use o elemento &lt;figure&gt; para marcar uma foto em um documento e o elemento &lt;figcaption&gt; para definir uma legenda para a foto:</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
-                
+                <tr>
+                    <td class="h1s">
+                        <br>
+                        <hr>
+                        <p>&lt;figure&gt;</p>
+                        <p>&nbsp;&lt;img src="pic_trulli.jpg" alt="Trulli" style="width:100%"&gt;</p>
+                        <p>&nbsp;&lt;figcaption&gt;Fig.1 - Trulli, Puglia, Italy.&lt;/figcaption&gt;</p>
+                        <p>&lt;figure&gt;</p>
+                        <hr>
+                    </td>
+                </tr>
             </tbody>
-           
         </table>
 
         <br><br>
 
         <div class="definicao">
-            <h2>Definição de Uso</h2>
+            <h2>Definição e Uso</h2>
             
             <br>
 
             <p>
-
-                A tag &lt;var&gt; é usada para definir uma variável na programação ou em uma expressão matemática.<br> O conteúdo interno geralmente é exibido em itálico.
-
-                    <br><br>Dica: esta tag não está obsoleta. No entanto, é possível obter um efeito mais "rico" usando CSS.
-
-
+              A tag &lt;figure&gt; especifica um conteúdo independente, como ilustrações, diagramas,<br> fotos, listangens de código, etc.
+              Enquanto o conteúdo do elemento &lt;figure&gt; está relacionado<br> ao fluxo principal, sua posição é independente do fluxo principal e, se removido,<br> não deve afetar o fluxo do documento.
+              Dica: O elemento &lt;figcaption&gt; é usado para adicionar <br> uma legenda para o elemento &lt;figure&gt;.
             </p>
         </div>
 
         <br><br><br>
 
         <h2 style="font-family: Source Code Pro, monospace; ; color: #ffffff; left: 310px; position: relative;">Suporte para Navegadores</h2>
+        <br>
+        <p class="definicao">Os números na tabela especificam a primeira versão do navegador que suporta totalmente o elemento. </p>
         <br>
         <div class="navegadores">
             <table class="table_nav">
@@ -91,11 +89,11 @@
                 <tbody>
                     <tr style="text-align: center; background-color: #9f9f9f;">
                         <td>Compatibilidade</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
-                        <td>Sim</td>
+                        <td>6.0</td>
+                        <td>9.0</td>
+                        <td>4.0</td>
+                        <td>5.0</td>
+                        <td>11.1</td>
                     </tr>
                 </tbody>
             </table>
@@ -106,20 +104,20 @@
         <div class="globais">
             <h2>Atributos Globais</h2>          
             <br>
-            <p>A tag &lt;var&gt; também suportam os <a class="link" href="atributosglobais.html">Atributos Globais em HTML</a>.</p>
+            <p>A tag &lt;figure&gt; também suporta os <a class="link" href="atributosglobais.html">Atributos Globais em HTML</a>.</p>
         </div>
 
         <br><br><br>
-
-        
     
-            <button class="anterior"><a class="button_link" href="u.html">Anterior</a></button>
-            <button class="proxima"><a class="button_link" href="var.html">Próximo</a></button>
 
-        <br><br><br><hr><br>
+            <button class="anterior"><a class="button_link" href="em.html">Anterior</a></button>
+         
+            <button class="proxima"><a class="button_link" href="html.html">Próximo</a></button>
+
+        <br><br><br><br>
     </main>
-    
-    <footer>
+    <hr><br>
+ <footer>
         <p class="p_footer">Home	&nbsp;Referências	&nbsp;Sobre</p>
         Copyright&copy;2023
     </footer>

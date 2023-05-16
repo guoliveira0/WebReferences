@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/tags.css">
+    <link rel="stylesheet" href="../css/tabela_atributos.css">
+    <title>Input</title>
+    <link rel="icon" href="../imgs/Logo 1(png).png">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="imagem-cabecalho" src="../imgs/Logo.png.png" alt="Logo do Site" />
+        <nav class="cabecalhomenu">
+            <a class="cabecalho-menu-item" href="../index.html">Home</a>
+            <a class="cabecalho-menu-item" href="referencias.html">Referências</a>
+            <a class="cabecalho-menu-item" href="sobre.html">Sobre</a>
+        </nav>
+    </header>  
+    <main>
+        <br><br>
+
+        <h1 class="titulo">Tag &lt;input&gt;</h1>
+
+        <br>
+        <br>
+        
+        <table class="ex">
+            <thead>
+                <tr>
+                    <th class="ex-th">
+                        <br>
+                        <h2>Exemplos</h2>
+                        <br>
+                        <p>Define um trecho de destaque em um texto:</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="h1s">
+                        <br>
+                        <hr>
+                        <p>&lt;form action="/action_page.php"&gt;</form></p>
+                        <p>&nbsp;&lt;label for="fname"&gt;First name:&lt;/label&gt;</p>
+                        <p>&nbsp;&lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;&lt;br&gt;</p>
+                        <p>&nbsp;&lt;label for="lname"&gt;Last name:&lt;/label&gt;</p>
+                        <p>&nbsp;&lt;input type="text" id="lname" name="lname"&gt;&lt;br&gt;&lt;br&gt;</p>
+                        <p>&nbsp;&lt;input type="submit" value="Submit"&gt;</p>
+                        <p>&lt;/form&gt;</p>
+                        <hr>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <div class="definicao">
+            <h2>Definição e Uso</h2>
+            
+            <br>
+
+            <p>
+              A tag &lt;input&gt; especifica um campo de entrada onde o usuário pode inserir dados.<br><br>
+              O elemento &lt;input&gt; é o elemento de formulário mais importante.<br><br>
+              O elemento &lt;input&gt; pode ser exibido de várias formas, dependendo do atributo type.<br><br>
+              Dica: Sempre use a tag &lt;label&gt; para definir rótulos para &lt;input type="text"&gt;,<br> &lt;input type="checkbox"&gt;, &lt;input type="radio"&gt;, &lt;input type="file"&gt<br>>e &lt;input type="password"&gt;.<br><br>
+              Os diferentes tipos de entrada são os seguintes:<br><br>
+              <ul style="margin-left: 2rem;">
+            <li>&lt;input type="button"&gt;</li>
+            <li>&lt;input type="checkbox"&gt;</li>
+            <li>&lt;input type="color"&gt;</li>
+            <li>&lt;input type="date"&gt;</li>
+            <li>&lt;input type="datetime-local"&gt;</li>
+            <li>&lt;input type="email"&gt;</li>
+            <li>&lt;input type="file"&gt;</li>
+            <li>&lt;input type="hidden"&gt;</li>
+            <li>&lt;input type="image"&gt;</li>
+            <li>&lt;input type="month"&gt;</li>
+            <li>&lt;input type="number"&gt;</li>
+            <li>&lt;input type="password"&gt;</li>
+            <li>&lt;input type="radio"&gt;</li>
+            <li>&lt;input type="range"&gt;</li>
+            <li>&lt;input type="reset"&gt;</li>
+            <li>&lt;input type="search"&gt;</li>
+            <li>&lt;input type="submit"&gt;</li>
+            <li>&lt;input type="tel"&gt;</li>
+            <li>&lt;input type="text"&gt;(valor padrão)</li>
+            <li>&lt;input type="time"&gt;</li>
+            <li>&lt;input type="url"&gt;</li>
+            <li>&lt;input type="week"&gt;</li>
+              </ul>
+            </p>
+        </div>
+
+        <br><br><br>
+
+        <h2 style="font-family: Source Code Pro, monospace; ; color: #ffffff; left: 310px; position: relative;">Suporte para Navegadores</h2>
+        <br>
+        <p class="definicao">Os números na tabela especificam a primeira versão do navegador que suporta totalmente o elemento. </p>
+        <br>
+        <div class="navegadores">
+            <table class="table_nav">
+                <thead>
+                    <tr>
+                        <th class="nth"><p>Navegadores</p></th>
+                        <th class="nth"><img src="../imgs/Chrome.png"></th>
+                        <th class="nth"><img src="../imgs/Safari.png"></th>
+                        <th class="nth"><img src="../imgs/Firefox.png"></th>
+                        <th class="nth"><img src="../imgs/Edge.png"></th>
+                        <th class="nth"><img src="../imgs/Opera.png"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="text-align: center; background-color: #9f9f9f;">
+                        <td>Compatibilidade</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br><br><br>
+        <table class="atributos_opcionais">
+
+            <thead>
+                <tr>
+                    <th>Atributo</th>
+                    <th>Valor</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="tr_atributos_opcionais">
+                    <td>accept</td>
+                    <td>file_extension<br>audio/<br>video/<br>image/*<br>media/type
+                    </td>
+                    <td>Especifica um filtro para quais tipos de arquivo o usuário pode escolher na caixa de diálogo de entrada de arquivo (somente para type="file")</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>alt</td>
+                    <td>text</td>
+                    <td>Especifica um texto alternativo para imagens (somente para type="image")</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>autocomplete</td>
+                    <td>on<br>off  
+                    </td>
+                    <td>Especifica se um elemento &lt;input&gt; deve ter o preenchimento automático ativado</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>autofocus</td>
+                    <td>autofocus</td>
+                    <td>Especifica que um elemento &lt;input&gt; deve obter foco automaticamente quando a página for carregada</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>checked</td>
+                    <td>checked</td>
+                    <td>Especifica que um elemento &lt;input&gt; deve ser pré-selecionado quando a página for carregada (para type="checkbox" ou type="radio")</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>dirname</td>
+                    <td>inputname.dir</td>
+                    <td>Especifica que a direção do texto será enviada</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>disabled</td>
+                    <td>disabled</td>
+                    <td>Especifica que um elemento &lt;input&gt;deve ser desabilitado</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>form</td>
+                    <td>form_id</td>
+                    <td>Especifica o formulário ao qual o elemento &lt;input&gt; pertence</td>
+                </tr>
+
+                <tr class="tr_atributos_opcionais">
+                    <td>formaction</td>
+                    <td>URL</td>
+                    <td>Especifica a URL do arquivo que processará o controle de entrada quando o formulário for enviado (para type="submit" e type="image")</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>formenctype</td>
+                    <td>application/x-www-form-<br>urlencoded<br>
+                        multipart/form-data<br>
+                        text/plain</td>
+                    <td>Especifica como os dados do formulário devem ser codificados ao enviá-los ao servidor (para type="submit" e type="image")</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>formmethod</td>
+                    <td>get<br>
+                        post</td>
+                    <td>Define o método HTTP para enviar dados para a URL de ação (para type="submit" e type="image")</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>formnovalidate&nbsp;</td>
+                    <td>formnovalidate</td>
+                    <td>Define que os elementos do formulário não devem ser validados quando enviados</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>formtarget</td>
+                    <td>_blank<br>
+                        _self<br>
+                        _parent<br>
+                        _top<br>
+                        framename</td>
+                    <td>Especifica onde exibir a resposta recebida após o envio do formulário (para type="submit" e type="image")</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>height</td>
+                    <td>pixels</td>
+                    <td>Especifica a altura de um elemento &lt;input&gt; (somente para type="image")</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>list</td>
+                    <td>datalist_id</td>
+                    <td>Refere-se a um elemento &lt;datalist&gt; que contém opções predefinidas para um elemento &lt;input&gt;</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>max</td>
+                    <td>number<br>
+                        date</td>
+                    <td>Especifica o valor máximo para um elemento &lt;input&gt;</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>maxlength</td>
+                    <td>number</td>
+                    <td>Especifica o número máximo de caracteres permitidos em um elemento &lt;input&gt;</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>min</td>
+                    <td>number<br>
+                        date</td>
+                    <td>Especifica um valor mínimo para um elemento &lt;input&gt;</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>minlength</td>
+                    <td>number</td>
+                    <td>Especifica o número mínimo de caracteres necessários em um elemento &lt;input&gt;</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>multiple</td>
+                    <td>multiple</td>
+                    <td>Especifica que um usuário pode inserir mais de um valor em um elemento &lt;input&gt;</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>name</td>
+                    <td>text</td>
+                    <td>Especifica o nome de um elemento &lt;input&gt;</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>pattern</td>
+                    <td>regexp</td>
+                    <td>Especifica uma expressão regular em que o valor de um elemento &lt;input&gt; é verificado</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>placeholder</td>
+                    <td>text</td>
+                    <td>Especifica uma dica curta que descreve o valor esperado de um elemento &lt;input&gt;</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>readonly</td>
+                    <td>readonly</td>
+                    <td>Especifica que um campo de entrada é somente leitura</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>required</td>
+                    <td>required</td>
+                    <td>Especifica que um campo de entrada deve ser preenchido antes de enviar o formulário</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>size</td>
+                    <td>number</td>
+                    <td>Especifica a largura, em caracteres, de um elemento &lt;input&gt;</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>src</td>
+                    <td>URL</td>
+                    <td>Especifica a URL da imagem a ser usada como botão de envio (somente para type="image")</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>step</td>
+                    <td>number<br>
+                        any</td>
+                    <td>Especifica o intervalo entre números legais em um campo de entrada</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>type</td>
+                    <td>button<br>
+                        checkbox<br>
+                        color<br>
+                        date<br>
+                        datetime-local<br>
+                        email<br>
+                        file<br>
+                        hidden<br>
+                        image<br>
+                        month<br>
+                        number<br>
+                        password<br>
+                        radio<br>
+                        range<br>
+                        reset<br>
+                        search<br>
+                        submit<br>
+                        tel<br>
+                        text<br>
+                        time<br>
+                        url<br>
+                        week</td>
+                    <td>Especifica o tipo de elemento &lt;input&gt; a ser exibido</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>value</td>
+                    <td>text</td>
+                    <td>Especifica o valor de um elemento &lt;input&gt;</td>
+                </tr>
+                <tr class="tr_atributos_opcionais">
+                    <td>width</td>
+                    <td>pixels</td>
+                    <td>Especifica a largura de um elemento &lt;input&gt; (somente para type="image")</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br><br><br>
+
+        <div class="globais">
+            <h2>Atributos Globais</h2>          
+            <br>
+            <p>A tag &lt;input&gt; também suporta os <a class="link" href="atributosglobais.html">Atributos Globais em HTML</a>.</p>
+        </div>
+
+        <br><br><br>
+    
+            <button class="anterior"><a class="button_link" href="img.html">Anterior</a></button>
+            <button class="proxima"><a class="button_link" href="ins.html">Próximo</a></button>
+
+        <br><br><br><br>
+    </main>
+    <hr><br>
+ <footer>
+        <p class="p_footer">Home	&nbsp;Referências	&nbsp;Sobre</p>
+        Copyright&copy;2023
+    </footer>
+    <br>
+</body>
+
+</html>
