@@ -8,15 +8,55 @@
     text-decoration: none;
 }
 
+
+
 html,body{
     overflow-x: hidden;
   }
+
+  html{
+    Scroll-behavior: smooth;
+    }
 
 body {
     font-size: 100%;
     background-color: #101010;
 }
 
+.link_tags_header{
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+/* Configurações do details */
+
+summary{
+    list-style-type: '>';
+    
+}
+
+summary:hover{
+
+    cursor:default;
+}
+
+details[open] summary{
+    list-style-type: '<';
+    
+}
+
+header:hover {
+    background-color: #292929;
+}
+
+a:hover {
+    color: #f64348;
+    text-decoration: dotted;
+}
 /*Inicio do Cabeçalho*/
 .cabecalho {
     display: flex;
@@ -92,9 +132,9 @@ tbody tr:nth-child(odd) {
     color: rgb(183, 2, 2);
   }
 .navegadorsuporte {
-    left: 19.375rem;
+    text-align: center;
     color: #f9f9f9;
-    position: relative;
+    
   } 
 /*footer*/
 footer {
