@@ -9,7 +9,9 @@
   <li>Figma</li>
 </ul>
 🖥️ WebReferences
-<p><a href="https://guoliveira0.github.io/WebReferences/">Nosso site</a> foi construído com  base no site <a href="https://www.w3schools.com/">W3Scholls</a>.
-<p> Fizemos commits por meio de branches( estão todas salvas no repositório) e apenas o líder dava merge na branch principal.</p>
+<ul>
+<li><p><a href="https://guoliveira0.github.io/WebReferences/">Nosso site</a> foi construído com  base no site <a href="https://www.w3schools.com/">W3Scholls</a>.</li>
+<li><p> Fizemos commits por meio de branches( estão todas salvas no repositório) e apenas o líder dava merge na branch principal.</p></li>
+  <li><hr></li>
 <h2>Esperamos que goste do site!</h2>  
-  
+</ul>  
